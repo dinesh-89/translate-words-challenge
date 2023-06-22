@@ -28,7 +28,7 @@ function translateWords() {
             const translations = {};
             let translatedText = text;
 
-            console.log('Translating words...');
+            console.log('Translating words');
             findWords.forEach((word) => {
                 const regex = new RegExp(`\\b${word}\\b`, 'g');
                 if (dictionary[word] && translatedText.match(regex)) {
