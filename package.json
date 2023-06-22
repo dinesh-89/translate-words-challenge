@@ -1,0 +1,13 @@
+{
+  "name": "translate-word-challange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "readline": "^1.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
