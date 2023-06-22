@@ -1,0 +1,9 @@
+CODEOWNERS
+node_modules
+.vscode
+.github
+package-lock.json
+yarn.lock
+.env
+.env.local
+yarn-error.log
